@@ -1,6 +1,6 @@
 # Natural Language Processing Summer 2025 Assignment
 
-![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![Python](https://img.shields.io/badge/python-3.12%2B-blue)
 ![Poetry](https://img.shields.io/badge/poetry-managed-brightgreen)
 
 **Authors:** Christos Lazaridis, Athanasios Kalogeropoulos, Michalis Nikiforakis
