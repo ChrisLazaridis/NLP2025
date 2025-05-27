@@ -1,0 +1,21 @@
+\begin{table}
+\caption{Metric scores for our five systems.}
+\label{tab:ours-metrics}
+\begin{tabular}{lrrrrr}
+\toprule
+ & Tok_F1 & WER & BERT_F1 & SBERT_Cos & TFIDF_Cos \\
+Pipeline &  &  &  &  &  \\
+\midrule
+enronsent_rnn_plain_1 & 0.62 & 0.70 & 0.31 & 0.66 & 0.34 \\
+enronsent_rnn_plain_2 & 0.47 & 0.86 & 0.45 & 0.83 & 0.36 \\
+enronsent_rnn_wait_1 & 0.82 & 1.05 & -0.01 & 0.46 & 0.26 \\
+enronsent_rnn_wait_2 & 0.53 & 1.14 & -0.07 & 0.40 & 0.22 \\
+naive_reconstructed_1 & 0.71 & 0.60 & 0.60 & 0.87 & 0.55 \\
+naive_reconstructed_2 & 0.43 & 0.81 & 0.51 & 0.87 & 0.28 \\
+vocab_rnn_plain_1 & 0.57 & 0.90 & 0.10 & 0.48 & 0.27 \\
+vocab_rnn_plain_2 & 0.43 & 0.90 & 0.26 & 0.63 & 0.24 \\
+vocab_rnn_wait_1 & 0.61 & 1.00 & -0.00 & 0.55 & 0.28 \\
+vocab_rnn_wait_2 & 0.34 & 1.05 & -0.17 & 0.56 & 0.06 \\
+\bottomrule
+\end{tabular}
+\end{table}

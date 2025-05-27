@@ -1,0 +1,17 @@
+\begin{table}
+\caption{Metric scores for the six Transformer baselines.}
+\label{tab:sota-metrics}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+ & BLEU & ROUGE-1 & ROUGE-2 & ROUGE-L & BERTScore-F1 & SBERT-sim & TFIDF-sim & WER \\
+Model &  &  &  &  &  &  &  &  \\
+\midrule
+Vamsi/T5_Paraphrase_Paws & 14.58 & 0.57 & 0.27 & 0.50 & 0.90 & 0.88 & 0.61 & 0.79 \\
+eugenesiow/bart-paraphrase & 13.50 & 0.56 & 0.27 & 0.44 & 0.89 & 0.93 & 0.59 & 0.75 \\
+liamcripwell/ctrl44-simp & 12.43 & 0.58 & 0.26 & 0.49 & 0.90 & 0.90 & 0.61 & 0.86 \\
+prithivida/grammar_error_correcter_v1 & 6.27 & 0.44 & 0.17 & 0.35 & 0.88 & 0.76 & 0.49 & 0.88 \\
+ramsrigouthamg/t5_paraphraser & 12.15 & 0.58 & 0.26 & 0.48 & 0.89 & 0.84 & 0.61 & 0.79 \\
+stanford-oval/paraphraser-bart-large & 8.47 & 0.43 & 0.21 & 0.38 & 0.90 & 0.79 & 0.54 & 0.85 \\
+\bottomrule
+\end{tabular}
+\end{table}
