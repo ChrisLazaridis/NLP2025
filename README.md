@@ -32,6 +32,8 @@ This repository contains the coding portion of the Summer 2025 Natural Language 
 
 - **external_pipelines/**  
   Leverages pre-trained models and external pipelines to reconstruct entire texts in a more flexible manner.
+- **Report**
+  Detailed report with our metholodogy and findings lies in [Report](https://github.com/ChrisLazaridis/NLP2025/blob/main/NLP2025Mandatory%20(1).pdf)
 
 ---
 
