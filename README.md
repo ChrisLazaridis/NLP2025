@@ -14,21 +14,23 @@ This repository contains the coding portion of the Summer 2025 Natural Language 
 ---
 
 ## Repository Structure
-
+```
 ├── Naive/           Deterministic automata and basic NLP techniques
 ├── ML/              LSTM-based encoder-decoder (Seq2Seq) implementations
 │   ├── try1/        First ML approach (models and preprocessing)
 │   └── try2/        Second ML approach (models and preprocessing)
-├── Lib/             Library-based approach with pre-trained models
+├── external_pipelines/             Library-based approach with pre-trained models
+├── evaluatiom/                  Evaluation of all approaches
 ├── poetry.toml      Poetry configuration
 └── poetry.lock      Locked dependencies for reproducibility
+```
 - **Naive/**  
   Contains two attempts at reconstructing selected sentences using deterministic automatons and rule-based NLP techniques.
 
 - **ML/**  
   Includes two LSTM-based Seq2Seq systems: one in each subdirectory (`model1/` and `model2/`). Each contains training and evaluation CSV files.
 
-- **Lib/**  
+- **external_pipelines/**  
   Leverages pre-trained models and external pipelines to reconstruct entire texts in a more flexible manner.
 
 ---
@@ -50,12 +52,19 @@ https://huggingface.co/RagerGr/NLP2025-Ambiguity
 ---
 
 ## Installation
+1. **Create a new conda environment on `python12` using
+```bash
+conda create -n <env-name> python=3.12 -y
+```
 
-1. **Clone the repository**
+2. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
-2. **Install dependencies**
+   git clone https://github.com/ChrisLazaridis/NLP2025.git
+   cd NLP2025
+3. **Install dependencies**
+  inside the `conda` environment
   ```bash
-   poetry install
+   pip install poetry
+   poetry install --no-root
+```
 3. **Run setup.py**
