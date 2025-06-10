@@ -15,7 +15,7 @@ This repository contains the coding portion of the Summer 2025 Natural Language 
 
 ## Repository Structure
 ```
-├── Naive/           Deterministic automata and basic NLP techniques
+├── Naive/           Deterministic rule based reconstruction
 ├── ML/              LSTM-based encoder-decoder (Seq2Seq) implementations
 │   ├── try1/        First ML approach (models and preprocessing)
 │   └── try2/        Second ML approach (models and preprocessing)
